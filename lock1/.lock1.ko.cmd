@@ -1,0 +1,1 @@
+cmd_/workspace/linux_study/kernel-mod/lock1/lock1.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /workspace/linux_study/kernel-mod/lock1/lock1.ko /workspace/linux_study/kernel-mod/lock1/lock1.o /workspace/linux_study/kernel-mod/lock1/lock1.mod.o ;  true
