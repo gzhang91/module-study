@@ -1,1 +1,0 @@
-cmd_/workspace/linux_study/kernel-mod/lock1/lock1.o := ld -m elf_x86_64 -z max-page-size=0x200000   -r -o /workspace/linux_study/kernel-mod/lock1/lock1.o /workspace/linux_study/kernel-mod/lock1/main.o 
